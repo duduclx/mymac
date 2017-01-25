@@ -2,6 +2,9 @@
 # Install PostgreSQL PHP extensions on Mac OS X
 # You need to install Postgres.app first
 
+# Install HomeBrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Install Xcode Command Line Tools first (required)
 xcode-select --install
 
