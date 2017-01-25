@@ -4,6 +4,8 @@
 
 # Install HomeBrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Install pdo-pgsql
+brew install php55-pdo-pgsql
 
 # Install Xcode Command Line Tools first (required)
 xcode-select --install
